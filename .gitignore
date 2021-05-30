@@ -1,0 +1,14 @@
+.DS_Store
+*.swp
+
+# PyTorch serialized modules
+*.pt
+
+analyzer/habitat/data/LICENSE
+analyzer/habitat/data/NOTICE
+analyzer/habitat/data/kernels.sqlite
+analyzer/habitat/data/**/*.pth
+
+# Python
+*.pyc
+__pycache__
