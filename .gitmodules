@@ -1,0 +1,6 @@
+[submodule "cpp/external/pybind11"]
+	path = cpp/external/pybind11
+	url = https://github.com/pybind/pybind11
+[submodule "cpp/external/gflags"]
+	path = cpp/external/gflags
+	url = https://github.com/gflags/gflags

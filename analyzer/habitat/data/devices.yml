@@ -1,0 +1,130 @@
+# NOTE: All GPU device "names" need to be valid Python identifiers. Therefore
+# they cannot start with a numeric character.
+
+P4000:
+  compute_major: 6
+  compute_minor: 1
+  max_threads_per_block: 1024
+  max_threads_per_multiprocessor: 2048
+  regs_per_block: 65536
+  regs_per_multiprocessor: 65536
+  warp_size: 32
+  shared_mem_per_block: 49152
+  shared_mem_per_multiprocessor: 98304
+  num_sms: 14
+  shared_mem_per_block_optin: 49152
+  mem_bandwidth_gb: 195
+  base_clock_mhz: 1227
+  peak_gflops_per_second: 6054
+
+GTX1080Ti:
+  compute_major: 6
+  compute_minor: 1
+  max_threads_per_block: 1024
+  max_threads_per_multiprocessor: 2048
+  regs_per_block: 65536
+  regs_per_multiprocessor: 65536
+  warp_size: 32
+  shared_mem_per_block: 49152
+  shared_mem_per_multiprocessor: 98304
+  num_sms: 28
+  shared_mem_per_block_optin: 49152
+  mem_bandwidth_gb: 484
+  base_clock_mhz: 1480
+  peak_gflops_per_second: 10609
+
+RTX2070:
+  compute_major: 7
+  compute_minor: 5
+  max_threads_per_block: 1024
+  max_threads_per_multiprocessor: 1024
+  regs_per_block: 65536
+  regs_per_multiprocessor: 65536
+  warp_size: 32
+  shared_mem_per_block: 49152
+  shared_mem_per_multiprocessor: 65536
+  num_sms: 36
+  shared_mem_per_block_optin: 0
+  mem_bandwidth_gb: 383
+  base_clock_mhz: 1410
+  peak_gflops_per_second: 4318
+
+RTX2080Ti:
+  compute_major: 7
+  compute_minor: 5
+  max_threads_per_block: 1024
+  max_threads_per_multiprocessor: 1024
+  regs_per_block: 65536
+  regs_per_multiprocessor: 65536
+  warp_size: 32
+  shared_mem_per_block: 49152
+  shared_mem_per_multiprocessor: 65536
+  num_sms: 68
+  shared_mem_per_block_optin: 0
+  mem_bandwidth_gb: 524
+  base_clock_mhz: 1350
+  peak_gflops_per_second: 5938
+
+P4:
+  compute_major: 6
+  compute_minor: 1
+  max_threads_per_block: 1024
+  max_threads_per_multiprocessor: 2048
+  regs_per_block: 65536
+  regs_per_multiprocessor: 65536
+  warp_size: 32
+  shared_mem_per_block: 49152
+  shared_mem_per_multiprocessor: 98304
+  num_sms: 20
+  shared_mem_per_block_optin: 0
+  mem_bandwidth_gb: 192
+  base_clock_mhz: 810
+  peak_gflops_per_second: 4147
+
+T4:
+  compute_major: 7
+  compute_minor: 5
+  max_threads_per_block: 1024
+  max_threads_per_multiprocessor: 1024
+  regs_per_block: 65536
+  regs_per_multiprocessor: 65536
+  warp_size: 32
+  shared_mem_per_block: 49152
+  shared_mem_per_multiprocessor: 65536
+  num_sms: 40
+  shared_mem_per_block_optin: 0
+  mem_bandwidth_gb: 239
+  base_clock_mhz: 585
+  peak_gflops_per_second: 1804
+
+V100:
+  compute_major: 7
+  compute_minor: 0
+  max_threads_per_block: 1024
+  max_threads_per_multiprocessor: 2048
+  regs_per_block: 65536
+  regs_per_multiprocessor: 65536
+  warp_size: 32
+  shared_mem_per_block: 49152
+  shared_mem_per_multiprocessor: 98304
+  num_sms: 80
+  shared_mem_per_block_optin: 0
+  mem_bandwidth_gb: 739
+  base_clock_mhz: 1312
+  peak_gflops_per_second: 6716
+
+P100:
+  compute_major: 6
+  compute_minor: 0
+  max_threads_per_block: 1024
+  max_threads_per_multiprocessor: 2048
+  regs_per_block: 65536
+  regs_per_multiprocessor: 65536
+  warp_size: 32
+  shared_mem_per_block: 49152
+  shared_mem_per_multiprocessor: 65536
+  num_sms: 56
+  shared_mem_per_block_optin: 0
+  mem_bandwidth_gb: 501
+  base_clock_mhz: 1126
+  peak_gflops_per_second: 9504

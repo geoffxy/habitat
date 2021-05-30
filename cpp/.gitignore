@@ -1,0 +1,7 @@
+# CMake build directories
+build
+debug
+cmake-build-debug
+
+# CLion project directory
+.idea
