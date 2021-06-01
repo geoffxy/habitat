@@ -1,5 +1,8 @@
 # Habitat: A Runtime-Based Computational Performance Predictor for Deep Neural Network Training
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4885489.svg)](https://doi.org/10.5281/zenodo.4885489)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4876277.svg)](https://doi.org/10.5281/zenodo.4876277)
+
 Habitat is a tool that predicts a deep neural network's training iteration
 execution time on a given GPU. It currently supports PyTorch. To learn more
 about how Habitat works, please see our [research
