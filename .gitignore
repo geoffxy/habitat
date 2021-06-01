@@ -6,6 +6,7 @@
 
 analyzer/habitat/data/LICENSE
 analyzer/habitat/data/NOTICE
+analyzer/habitat/data/README.md
 analyzer/habitat/data/kernels.sqlite
 analyzer/habitat/data/**/*.pth
 

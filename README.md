@@ -13,7 +13,7 @@ use the Docker image provided in this repository to make sure that you can
 compile the code.
 
 1. Download the [Habitat pre-trained
-   models](https://drive.google.com/uc?export=download&id=1wcH2GKBnFsSLz9HgYZVUv17bz7HBYl7f).
+   models](https://doi.org/10.5281/zenodo.4876277).
 2. Run `extract-models.sh` under `analyzer` to extract and install the
    pre-trained models.
 3. Run `setup.sh` under `docker/` to build the Habitat container image.
