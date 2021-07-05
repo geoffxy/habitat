@@ -1,0 +1,165 @@
+/* Overall styles. */
+
+html,
+body,
+#wrapper {
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.color-bar {
+  height: 8px;
+  background-color: #392f5a;
+}
+
+#content {
+  flex: 1;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.justify {
+  text-align: justify;
+  hyphens: auto;
+}
+
+#header-wrap {
+  margin: 20px 0 30px 0;
+}
+
+.header {
+  font-size: 2em;
+  margin: 0 0 10px 0;
+}
+
+.header-subtitle {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+#authors-wrap {
+  margin: 0 0 30px 0;
+}
+
+#authors-wrap ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+#authors-wrap ul li {
+  flex: 1;
+  font-size: 1.2em;
+}
+
+.subtle-link {
+  text-decoration: none;
+  color: #000;
+}
+
+.subtle-link:hover {
+  text-decoration: underline;
+}
+
+#abstract-wrap {
+  margin: 0 0 30px 0;
+}
+
+#abstract-wrap h3 {
+  margin: 0 0 10px 0;
+  font-size: 1.2em;
+}
+
+#abstract-wrap p {
+  margin: 0;
+  font-size: 1em;
+}
+
+#link-bar {
+  display: flex;
+}
+
+.button-link {
+  display: block;
+  margin: 0 10px 20px 0;
+  width: fit-content;
+  border-radius: 5px;
+  padding: 8px 15px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.button-accent {
+  background-color: #cf5c36;
+  color: #fff;
+}
+
+.button-accent:hover {
+  background-color: #da7d5e;
+}
+
+.button-accent:active {
+  background-color: #b1502f;
+}
+
+.button-regular {
+  background-color: #635e73;
+  color: #fff;
+}
+
+.button-regular:hover {
+  background-color: #898596;
+}
+
+.button-regular:active {
+  background-color: #464252;
+}
+
+/* Styles used for the BibTeX citation. */
+
+#bibtex-code {
+  display: none;
+}
+
+.pub-bibtex {
+  position: relative;
+}
+
+.pub-bibtex pre {
+  margin: 0;
+  font-size: 0.9em;
+  font-family: 'Source Code Pro', monospace;
+}
+
+.pub-bibtex .pub-bibtex-copy {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  background-color: #aaa;
+  color: #fff;
+  border: 0;
+  border-radius: 3px;
+  padding: 5px;
+  transition: opacity 0.2s, background-color 0.2s;
+  opacity: 0;
+  outline: none;
+}
+
+.pub-bibtex .pub-bibtex-copy:hover {
+  background-color: #bbb;
+}
+
+.pub-bibtex:hover .pub-bibtex-copy {
+  opacity: 1;
+}
+
+.inset {
+  background-color: #f5f5f5;
+  padding: 15px;
+  border-radius: 3px;
+}
