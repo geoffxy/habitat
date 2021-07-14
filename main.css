@@ -64,6 +64,20 @@ body,
   text-decoration: underline;
 }
 
+#main-figure {
+  margin: 0 0 30px 0;
+}
+
+#main-figure img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#main-figure .caption {
+  text-align: center;
+  margin: 0;
+}
+
 #abstract-wrap {
   margin: 0 0 30px 0;
 }
