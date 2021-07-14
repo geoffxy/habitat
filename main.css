@@ -83,7 +83,7 @@ body,
 }
 
 .button-link {
-  display: block;
+  display: inline-block;
   margin: 0 10px 20px 0;
   width: fit-content;
   border-radius: 5px;
