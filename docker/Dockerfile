@@ -29,7 +29,7 @@ RUN cd /opt/cmake-3.17.0-rc1 && \
 
 # NOTE: gosu is used in create-user.sh
 RUN mkdir ~/.gnupg && echo "disable-ipv6" >> ~/.gnupg/dirmngr.conf
-RUN gpg --keyserver ha.pool.sks-keyservers.net --recv-keys B42F6819007F00F88E364FD4036A9C25BF357DD4
+RUN gpg --keyserver keyserver.ubuntu.com --recv-keys B42F6819007F00F88E364FD4036A9C25BF357DD4
 RUN wget "https://github.com/tianon/gosu/releases/download/1.11/gosu-$(dpkg --print-architecture | awk -F- '{ print $NF }')" -O /usr/local/bin/gosu && \
   wget "https://github.com/tianon/gosu/releases/download/1.11/gosu-$(dpkg --print-architecture | awk -F- '{ print $NF }').asc" -O /usr/local/bin/gosu.asc && \
   gpg --verify /usr/local/bin/gosu.asc && \
