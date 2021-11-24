@@ -12,6 +12,7 @@ RUN apt-get update --fix-missing && \
 RUN pip3 install wheel && pip3 install numpy PyYAML
 RUN pip3 install \
   torch==1.4.0 \
+  pillow==7.2.0 \
   torchvision==0.5.0 \
   pandas==1.1.2 \
   tqdm==4.49.0
