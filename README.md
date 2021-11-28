@@ -27,6 +27,13 @@ compile the code.
 6. In your scripts, `import habitat` to get access to Habitat. See
    `experiments/run_experiment.py` for an example showing how to use Habitat.
 
+**Note:** Habitat needs access to your GPU's performance counters, which
+requires special permissions if you are running with a recent driver (418.43 or
+later). If you encounter a `CUPTI_ERROR_INSUFFICIENT_PRIVILEGES` error when
+running Habitat, please follow the instructions
+[here](https://developer.nvidia.com/ERR_NVGPUCTRPERM)
+and in [issue #5](https://github.com/geoffxy/habitat/issues/5).
+
 
 ## License
 
