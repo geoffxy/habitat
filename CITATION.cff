@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use Habitat, please cite it as below."
+authors:
+- family-names: "Yu"
+  given-names: "Geoffrey X."
+- family-names: "Gao"
+  given-names: "Yubo"
+- family-names: "Golikov"
+  given-names: "Pavel"
+- family-names: "Pekhimenko"
+  given-names: "Gennady"
+title: "Habitat: A Runtime-Based Computational Performance Predictor for Deep Neural Network Training"
+version: 1.0.0
+doi: 10.5281/zenodo.4885489
+date-released: 2021-06-01
+url: "https://github.com/geoffxy/habitat"
+preferred-citation:
+  type: conference-paper
+  authors:
+  - family-names: "Yu"
+    given-names: "Geoffrey X."
+  - family-names: "Gao"
+    given-names: "Yubo"
+  - family-names: "Golikov"
+    given-names: "Pavel"
+  - family-names: "Pekhimenko"
+    given-names: "Gennady"
+  collection-title: "Proceedings of the 2021 USENIX Annual Technical Conference (USENIX ATC '21)"
+  start: 503
+  end: 521
+  title: "Habitat: A Runtime-Based Computational Performance Predictor for Deep Neural Network Training"
+  month: 7
+  year: 2021
