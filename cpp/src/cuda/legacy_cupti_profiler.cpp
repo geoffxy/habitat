@@ -283,7 +283,7 @@ std::vector<habitat::cuda::KernelMetric> ProfilingSession::getMeasuredMetrics() 
     EventData& events = recorded_events_.at(i);
 
     if (events.event_values.size() != metric_data_.eventNum()) {
-      fprintf(stderr, "ERROR: Expected %u metric events, got %lu\n",
+      fprintf(stderr, "ERROR: Expected %u metric events, got %zu\n",
               metric_data_.eventNum(), events.event_values.size());
       return {};
     }
